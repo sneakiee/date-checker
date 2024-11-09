@@ -5,6 +5,7 @@ year = int(input("Enter year: "))
 
 #defining sum as global variable
 sum = 0
+x = 0
 
 #checks month and sets the key number according to month
 def monthChecker():
@@ -58,7 +59,7 @@ def yearChecker():
     else:
         pass
     
-    return(x)
+    return x
 
 #checks which day of the week it is through remainder
 def dayChecker():
